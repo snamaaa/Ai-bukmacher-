@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Bukmacher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI Bukmacher</h1>
+        <button id="theme-toggle">Przełącz tryb</button>
+    </header>
+    <main>
+        <section>
+            <h2>Prześlij plik</h2>
+            <input type="file" id="file-input" multiple>
+            <button id="upload-button">Wyślij</button>
+            <div id="file-response"></div>
+        </section>
+
+        <section id="chat">
+            <h2>Czat</h2>
+            <textarea id="chat-input" placeholder="Napisz wiadomość..."></textarea>
+            <button id="send-button">Wyślij</button>
+            <div id="chat-window"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
